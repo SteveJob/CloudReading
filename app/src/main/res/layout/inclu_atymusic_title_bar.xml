@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+    <ImageView
+        android:src="@mipmap/ic_menu"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:scaleType="centerInside"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <Button
+            android:id="@+id/btn_content_music"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:text="音乐"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:minWidth="0dp"
+            android:padding="5dp"/>
+        <Button
+            android:id="@+id/btn_content_online"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:text="在线"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:minWidth="0dp"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:src="@mipmap/ic_menu_search"
+        android:scaleType="centerInside"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>
